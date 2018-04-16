@@ -1,0 +1,27 @@
+
+.vbox{
+    -fx-spacing: 10; 
+    -fx-padding-top: 3px; 
+}
+
+.label{
+	-fx-text-fill: white;
+	-fx-font-size: 12px ;
+
+}
+
+.text-field{
+	-fx-background-color: inherit;
+	-fx-border-width:  0 0  3px 0; 
+	-fx-border-bottom-width: 5px;
+	-fx-border-color: skyblue;
+	-fx-padding-left: 2px;
+	-fx-text-fill: white;
+	-fx-font-size: 14px ; 
+}
+.text-field:focus{
+	-fx-border-color: red;
+}
+.button{
+	-fx-font-size: 14px ;
+}

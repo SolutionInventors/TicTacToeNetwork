@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="648.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="181.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Connection Options" wrappingWidth="137.13671875" />
+      <RadioButton layoutX="202.0" layoutY="112.0" mnemonicParsing="false" text="Join Connection" />
+      <RadioButton layoutX="389.0" layoutY="112.0" mnemonicParsing="false" text="Create Connection" />
+      <StackPane layoutX="80.0" layoutY="173.0" prefHeight="268.0" prefWidth="430.0">
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Text layoutX="162.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Network" wrappingWidth="106.00000843405724" />
+                  <ListView layoutY="51.0" prefHeight="214.0" prefWidth="430.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" visible="false">
+               <children>
+                  <Label layoutX="153.0" layoutY="14.0" prefHeight="26.0" prefWidth="128.0" text="Steps to creating connection" />
+                  <VBox layoutX="95.0" layoutY="40.0" prefHeight="200.0" prefWidth="216.0">
+                     <children>
+                        <Label text="1. Turn on hotspot" />
+                        <Label text="2. Open Tic tac toe App" />
+                        <Label text="3. Click on join connection" />
+                        <Label text="4. Select your name" />
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </children>
+      </StackPane>
+      <TextField layoutX="269.0" layoutY="56.0" prefHeight="26.0" prefWidth="240.0" />
+      <Label layoutX="80.0" layoutY="56.0" prefHeight="26.0" prefWidth="120.0" text="Enter Your Name" />
+      <Label layoutX="80.0" layoutY="112.0" text="Action" />
+      <Button layoutX="176.0" layoutY="467.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="216.0" text="Confirm" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,78 @@
+
+.root {
+    -fx-background-color: rgb(0, 101, 169);
+    -fx-color: white;
+}
+
+.bottom-pane .label {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+   
+}
+.bottom-pane {
+    -fx-spacing: 15px;
+    -fx-padding: 3px;
+}
+
+
+.label {
+   
+    -fx-text-alignment: center;
+    -fx-alignment: center; 
+}
+
+.title-text {
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-font-size: 40px;
+    -fx-fill: rgb(0, 207, 245);
+    -fx-font-family: Pristina;
+    -fx-effect: dropshadow(two-pass-box, rgba(31, 234, 255, 0.93), 22.8, 0.3, 5, 5);
+}
+
+.main-board{
+    -fx-border-width: 3px; 
+}
+.main-board .label {
+    -fx-background-color: inherit;
+    -fx-text-fill: white;
+    -fx-font-size: 30px;
+    -fx-font-family: Pristina;
+    -fx-font-weight: bold;
+}
+
+.main-board .o{
+    -fx-background-color: rgb(40, 153, 217); 
+}
+.main-board .o:hover {
+    -fx-background-color: rgb(2, 190, 241);
+}
+
+
+.main-board .x:hover {
+    -fx-background-color: rgb(255, 9, 62);
+}
+.main-board .x {
+    -fx-background-color: rgb(216, 41, 76); 
+}
+
+.main-board .win {
+    -fx-background-color: rgb(18, 174, 98);
+}
+.main-board .win:hover {
+    -fx-background-color: rgba(39, 208, 6, 0.93);
+}
+
+
+
+.button {
+    -fx-font-family: 'Tw Cen MT' ; 
+    
+    -fx-background-color: rgba(0, 148, 255, 0.95);
+    -fx-text-fill: rgb(239, 231, 231);
+}
+
+.button:hover {
+    -fx-background-color: rgba(0, 91, 255, 0.95);
+}
+
